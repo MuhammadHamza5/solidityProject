@@ -17,7 +17,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "id",
+						"name": "owner",
 						"type": "uint256"
 					},
 					{
@@ -31,22 +31,76 @@
 						"type": "string"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "fund_required",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "recive_amount",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
 						"name": "image",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadLine",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_owner",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_fund_required",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_recive_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_image",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_deadLine",
+						"type": "uint256"
+					}
+				],
+				"name": "createCampaign",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -91,11 +145,11 @@
 	},
 	"sources": {
 		"organization.sol": {
-			"keccak256": "0x0a88df60e2fb76fdb5c949e96998b0966407e0e026cbb340d8bb4325bcfc49ea",
+			"keccak256": "0xa1b49aff63b20335d55a086a51f8a98852513bbff068ea0470e9154e3b3e8cfd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f29d4b4f48f5c1d545d2d60efc0b7a55d46e02816c3064041023d5b7c38edd35",
-				"dweb:/ipfs/QmYy3AUgZ9Ui3nRxneWHSfmZkDxgQ5yntm1c16hw7Yo7e6"
+				"bzz-raw://77157a0863c8322e230b5291a1e0b660fa6646f81694a4de4d9e0c284556ab03",
+				"dweb:/ipfs/QmRncbLNEpFwVEzTb8LVfrYTvjRtGroP8Fagi8BKQ8T6rZ"
 			]
 		}
 	},
