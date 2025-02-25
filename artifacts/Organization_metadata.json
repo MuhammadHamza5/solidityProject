@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "campaignCreateSuccess",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -16,9 +35,9 @@
 				"name": "Campaigns",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "owner",
-						"type": "uint256"
+						"type": "address"
 					},
 					{
 						"internalType": "string",
@@ -57,9 +76,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "_owner",
-						"type": "uint256"
+						"type": "address"
 					},
 					{
 						"internalType": "string",
@@ -130,7 +149,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"organization.sol": "organization"
+			"organization.sol": "Organization"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -145,11 +164,11 @@
 	},
 	"sources": {
 		"organization.sol": {
-			"keccak256": "0x3e991ec565f5987577a12b69e8efbeb6f8d64bfabbd093b102b83ada7880190e",
+			"keccak256": "0x5bf2041a429e612ac390ec495fac477824d957413221edad30084deafc2dff0d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://81dbfbbe5714871a86a9c639209f0870185b94962ac49c5c237e255a2461f438",
-				"dweb:/ipfs/QmREBzi9Lo6CqmFNKMt1X81AK1jRJUksD7EnhjYr5Xi2tU"
+				"bzz-raw://7caa945cebd913bdd6c342a9988139944ab704cc3cd38f8fe9ef7039b1811dd5",
+				"dweb:/ipfs/QmTJEqfXqN9dZC1gCn3C9ahQKWgSht8mCM7eyNU3ubZmke"
 			]
 		}
 	},
